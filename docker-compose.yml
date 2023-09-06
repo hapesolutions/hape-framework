@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: "app"
+    build:
+      dockerfile: ./.docker/dev.Dockerfile
+      context: .
+    working_dir: "/app"
+    entrypoint: [ "/bin/bash", "-c", "pip install -r requirements.txt && sleep infinity" ]
+    volumes:
+      - ./:/app/

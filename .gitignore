@@ -1,0 +1,41 @@
+workspace/**
+publish/**
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.s
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+
+# IDE files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Compiled Python files
+*.pyc
+
+# Log files
+*.log
+
+# CSV files
+*.csv
+
+# Temporary files
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Git keep
+!**.gitkeep
